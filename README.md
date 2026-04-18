@@ -23,7 +23,8 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
 
 1.Clone repository:
 ```bash
-
+!git clone https://github.com/GFd-arch/cifar-10-classifier.git
+%cd cifar-10-classifier
 ```
 
 2.Install dependencies:
