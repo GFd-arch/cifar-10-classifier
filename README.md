@@ -2,7 +2,7 @@
 A simple 3-layer MLP for Fashion-MNIST classification.
 
 
-# fashion-MNIST Image Classification with Neural Network
+# Fashion-MNIST Image Classification with Neural Network
 
 A three-layer neural network implementation for fashion-MNIST classification, featuring:
 
