@@ -1,6 +1,6 @@
 # Fashion-MNIST Image Classification with Neural Network
 
-
+Python 3.6+
 
 A three-layer neural network implementation for Fashion-MNIST classification, featuring:
 
