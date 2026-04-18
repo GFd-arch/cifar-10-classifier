@@ -16,7 +16,6 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
 - para_search.py: grid search agent for parameter search
 - run.py: the main integrator of all agents
 - main.py: entrance of the code allowing for paras setting and quick start&save
-- data: folder that contains raw fashion-MNIST dataset
 - README.md
 
 ## Installation
@@ -33,9 +32,13 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
 ```
 
 ## Dataset Preparation
-1.Download fashion-MNIST dataset from website or use files in ./data
 
-2.Extract files to ./data and maintain this structure:
+1.Create a folder named 'data' in the current folder. 
+
+2.Download fashion-MNIST dataset from website.
+
+3.Extract files to ./data and maintain this structure:
+
 - data
   
     ├── train-images-idx3-ubyte
@@ -46,9 +49,10 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
   
     ├── t10k-labels-idx1-ubyte
 
-
 ## Usage
+
 1.For a one-tine quick start, you can change paras in main.py(shown as follows):
+
 ```python
 hidden_layer = 150
 paras = [100, 0.1, 1e-4, 50, 'cosine']
@@ -56,7 +60,6 @@ activation = 'relu'
 save = True
 origin_path = None
 ```
-
 The main file calls run.py, creates Runner(class) to complete the task. 
 
 - For training in a larger scale and para-search, use para_search.py for grid search.
@@ -64,6 +67,7 @@ The main file calls run.py, creates Runner(class) to complete the task.
 - For importing a already trained model for validation, set origin_path as your file path.
 
 run.py:
+
 ```python
 from data_loader import idxLoader
 from model import ThreeLayerNN
