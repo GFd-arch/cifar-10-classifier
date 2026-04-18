@@ -36,7 +36,8 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
 1.Download fashion-MNIST dataset from website
 
 2.Extract files to ./data and maintain this structure:
-- data/
+- data
+  
     ├── train-images-idx3-ubyte
   
     ├── train-labels-idx1-ubyte
