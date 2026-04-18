@@ -30,7 +30,7 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
 
 2.Install dependencies:
 ```bash
-!pip install numpy matplotlib math
+!pip install numpy matplotlib
 ```
 
 ## Dataset Preparation
