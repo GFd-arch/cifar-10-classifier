@@ -1,5 +1,7 @@
 # Fashion-MNIST Image Classification with Neural Network
 
+
+
 A three-layer neural network implementation for Fashion-MNIST classification, featuring:
 
 - Training with Mini-Batch GD
