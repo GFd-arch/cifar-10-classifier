@@ -1,15 +1,10 @@
-# cifar-10-classifier
-A simple 3-layer MLP for Fashion-MNIST classification.
-
-
 # Fashion-MNIST Image Classification with Neural Network
 
-A three-layer neural network implementation for fashion-MNIST classification, featuring:
+A three-layer neural network implementation for Fashion-MNIST classification, featuring:
 
-- Training with SGD
+- Training with Mini-Batch GD
 - Hyperparameter search
 - Learning rate scheduling
-- Mini-batch train procedure
 - Training visualization
 - Autosave for paras & model & results
 
