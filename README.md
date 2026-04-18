@@ -38,8 +38,11 @@ A three-layer neural network implementation for Fashion-MNIST classification, fe
 2.Extract files to ./data and maintain this structure:
 - data/
     ├── train-images-idx3-ubyte
+  
     ├── train-labels-idx1-ubyte
+  
     ├── t10k-images-idx3-ubyte
+  
     ├── t10k-labels-idx1-ubyte
 
 
